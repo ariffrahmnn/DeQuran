@@ -1,0 +1,144 @@
+body {
+    margin-top: 0;
+    font-family:'Poppins';
+    background-color: #1B211A;
+    height: 100%;
+}
+
+main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-container {
+    display: flex;
+    background-color: #628141;
+    width: 100%;
+    padding: 15px;
+    justify-content: end;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    flex-grow: 0;
+}
+
+.nav-container > h1 {
+    font-weight: 700;
+    color: #EBD5AB;
+    margin-right: auto;
+}
+
+.nav-list {
+    flex-grow: 0;
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-list > li > a {
+    text-decoration: none;
+    color: #EBD5AB;
+}
+
+.btn {
+    background-color: #8BAE66;
+    margin-top: 20px;
+}
+
+.carousel-list{
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 0;
+}
+
+@media (min-width: 344px) and (max-width: 790px){
+ .carousel-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+ }   
+
+ .carousel-content{
+    display: flex;
+    background-color: #628141;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    flex-grow: 0;
+}
+ 
+.hero-content > h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.hero-content > p {
+    color: #EBD5AB;
+    width: 280px;
+    font-size: small;
+    text-align: center;
+}
+
+}
+
+.carousel-content{
+    display: flex;
+    flex-direction: column;
+    background-color: #628141;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.carousel-content > svg {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    height: 80px;
+    width: 80px;
+}
+
+.carousel-content > h1 {
+    font-weight: 700;
+    color: #EBD5AB;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.carousel-content > p {
+    text-align: center;
+    font-size: small;
+    padding: 0 20px 0 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+    color: #F2F2F2;
+    background-color: #628141;
+    height: 120px;
+    gap: 30px;
+}
+
+.footer-content > ul {
+    display: flex;
+    gap: 20px;
+}
+
+footer > p {
+    font-weight: 700;
+    font-size: 13px;
+    color: #EBD5AB;
+
+}
+
+.footer-svg {
+    width: 30px;
+    height: 30px;
+}
