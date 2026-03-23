@@ -99,6 +99,20 @@
 
       </section>
         <!-- Carousel End -->
+
+   <section id="content-layout">
+    <% if (locals.surahDatas && surahDatas.length > 0) { %>
+        <% surahDatas.forEach( surahData => { %>
+            <div class="content-card">
+                <h1> <%= surahData.title %> </h1>
+                
+                <p> <%= surahData.translate %> </p>
+            </div>
+        <% }) %>
+    <% } else { %>
+        <p>Data surah tidak ditemukan atau sedang memuat...</p>
+    <% } %>
+</section>
     
 </main>
 <%- include('partials/footer.ejs') %>
