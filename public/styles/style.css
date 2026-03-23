@@ -142,6 +142,38 @@ main {
     padding: 0 20px 0 20px;
 }
 
+/* This is styling for Surah Quran */
+#content-layout {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 120px;
+    flex-grow: 0;
+    gap: 30px;
+}
+
+.content-card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(98, 129, 65, 0.4);
+    border-radius: 10px;
+    padding: 20px 10px 0 10px;
+    width: 300px;
+    height: 130px;
+}
+
+.content-card > h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #EBD5AB;
+}
+
+.content-card > p {
+    font-size: 12px;
+}
+
+/* End of Surah Quran */
+
 footer{
     display: flex;
     justify-content: center;
